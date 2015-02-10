@@ -1,0 +1,8 @@
+action,cell,value
+input,A1,2
+input,B1,3
+input,C1,A1+B1
+assert,C1,5
+input,A2,C1*5
+assert,A2,25
+input,B2,3*A1
